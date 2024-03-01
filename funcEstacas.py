@@ -12,3 +12,9 @@ def volumeEstaca(diametro, prof):
     volumeEst = areaEstaca(diametro) * prof
 
     return volumeEst
+
+def areaLateralEstaca(diametro, prof):
+
+    areaLat = pi * diametro * prof
+
+    return areaLat
